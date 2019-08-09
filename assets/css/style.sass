@@ -1,0 +1,51 @@
+$lightpink-hex: 	#fae6f5
+$darkgrey: #505050
+
+@mixin background
+    background: url("/images/singapore.jpeg") no-repeat center;
+
+html
+    background-color: $lightpink-hex;
+body
+    background-color: white;
+
+nav 
+    padding-top: 3%;
+    padding-bottom: 5%;
+
+nav p a 
+    font-family: 'Roboto', "Ubuntu", sans-serif;
+    color: $darkgrey;
+    text-decoration: none;
+
+a:visited, a:link, a:active
+    text-decoration: none;
+    color: $darkgrey;
+
+#mainLogo:hover
+    color: $lightpink-hex;
+    text-decoration: none;
+    background: $darkgrey;
+    padding: 1%;
+
+nav p 
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size: 1rem;
+header 
+
+header 
+    @include background;
+    min-height: 500px;
+    font-size: 0.5rem;
+
+.wrapper 
+    max-width: 80vw;
+    margin: 0 auto;
+
+footer p 
+    text-align: center;
+    font-size: 0.9rem;
+
+footer 
+    background-color: $lightpink-hex;
