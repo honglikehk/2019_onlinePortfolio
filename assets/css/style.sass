@@ -2,7 +2,7 @@ $lightpink-hex: 	#fae6f5
 $darkgrey: #505050
 
 @mixin background
-    background: url("/images/singapore.jpeg") no-repeat center;
+    background: url("../../images/singapore.jpeg") no-repeat center;
 
 html
     background-color: $lightpink-hex;
@@ -35,7 +35,7 @@ nav p
 header 
 
 header 
-    @include background;
+    @include background();
     min-height: 500px;
     font-size: 0.5rem;
 

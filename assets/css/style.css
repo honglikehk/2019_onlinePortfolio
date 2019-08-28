@@ -36,7 +36,7 @@ nav p {
 }
 
 header {
-  background: url("/images/singapore.jpeg") no-repeat center;
+  background: url("../../images/singapore.jpeg") no-repeat center;
   min-height: 500px;
   font-size: 0.5rem;
 }
