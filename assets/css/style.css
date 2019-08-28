@@ -12,14 +12,12 @@ nav {
 }
 
 nav p a {
-  font-family: "Roboto", "Ubuntu", sans-serif;
+  font-family: 'Roboto', "Ubuntu", sans-serif;
   color: #505050;
   text-decoration: none;
 }
 
-a:visited,
-a:link,
-a:active {
+a:visited, a:link, a:active {
   text-decoration: none;
   color: #505050;
 }
@@ -56,3 +54,4 @@ footer p {
 footer {
   background-color: #fae6f5;
 }
+/*# sourceMappingURL=style.css.map */
