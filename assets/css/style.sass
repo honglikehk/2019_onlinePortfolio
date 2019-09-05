@@ -1,13 +1,26 @@
 $lightpink-hex: 	#fae6f5
 $darkgrey: #505050
+$white: #ffffff
+
+$xsmall: 320px
+$small: 576px
+$medium: 768px
+$large: 992px
+$xlarge: 1200px
 
 @mixin background
     background: url("../../images/singapore.jpeg") no-repeat center;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
 
 html
     background-color: $lightpink-hex;
+    font-family: "Roboto", "Ubuntu", sans-serif;
+
 body
-    background-color: white;
+    background-color: $white;
 
 nav 
     padding-top: 3%;
@@ -18,20 +31,11 @@ nav p a
     color: $darkgrey;
     text-decoration: none;
 
-a:visited, a:link, a:active
-    text-decoration: none;
-    color: $darkgrey;
-
-#mainLogo:hover
-    color: $lightpink-hex;
-    text-decoration: none;
-    background: $darkgrey;
-    padding: 1%;
-
 nav p 
     text-align: center;
     letter-spacing: 0.3em;
     font-size: 1rem;
+
 header 
 
 header 
@@ -49,3 +53,71 @@ footer p
 
 footer 
     background-color: $lightpink-hex;
+
+button:focus 
+  outline: none !important;
+
+.accordion 
+  background-color: $white;
+  color: #505050;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.0rem;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  letter-spacing: 0.3em;
+
+.panel 
+  padding: 0 18px;
+  display: none;
+  background-color: $white;
+  overflow: hidden;
+
+#mainLogo:hover 
+  color: #fae6f5;
+  text-decoration: none;
+  background: #505050;
+  padding: 1%;
+
+
+p 
+  font-size: 1rem;
+
+.tab 
+  overflow: hidden;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+
+.tab button 
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+
+.tab button:hover 
+  background-color: #ddd;
+
+.tab button.active 
+  background-color: #ccc;
+  font-weight: bold;
+
+
+.tablinks 
+  font-size: 0.75rem;
+
+
+.tabcontent 
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+
+
+
