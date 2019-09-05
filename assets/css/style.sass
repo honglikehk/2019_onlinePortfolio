@@ -12,8 +12,6 @@ $xlarge: 1200px
     background: url("../../images/singapore.jpeg") no-repeat center;
     max-width: 100%;
     height: auto;
-    opacity: 0.5;
-    filter: alpha(opacity=50); 
 
 html
     background-color: $lightpink-hex;
@@ -26,22 +24,11 @@ nav
     padding-top: 3%;
     padding-bottom: 5%;
 
-nav p a 
-    font-family: 'Roboto', "Ubuntu", sans-serif;
-    color: $darkgrey;
-    text-decoration: none;
-
-nav p 
-    text-align: center;
-    letter-spacing: 0.3em;
-    font-size: 1rem;
-
-header 
-
 header 
     @include background();
     min-height: 500px;
-    font-size: 0.5rem;
+    font-size: 0.5rem; 
+    position: relative;
 
 .wrapper 
     max-width: 80vw;
@@ -118,6 +105,35 @@ p
   display: none;
   padding: 6px 12px;
   border-top: none;
+
+.textbox 
+  border-radius: 15px 50px 30px;
+  padding: 2.5%; 
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  position: absolute;
+  bottom: 6%;
+  left: 5%;
+  
+.textbox .aboutfont 
+  color: black;
+  x-index: 99;
+
+.textbox p 
+  font-size: 0.8rem;
+  line-height: 1.6em;
+
+.chinName 
+  color: white;
+  position: absolute;
+  right: 5%;
+  top: -1%;
+  font-size: 5rem;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
 
 
 
