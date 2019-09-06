@@ -18,7 +18,7 @@ header {
   background: url("../../images/singapore.jpeg") no-repeat center;
   max-width: 100%;
   height: auto;
-  min-height: 500px;
+  min-height: 65em;
   font-size: 0.5rem;
   position: relative;
 }
