@@ -10,6 +10,7 @@ body {
 nav {
   padding-top: 3%;
   padding-bottom: 5%;
+  max-width: 100%;
 }
 
 header {
@@ -126,11 +127,6 @@ p {
   left: 5%;
 }
 
-.textbox .aboutfont {
-  color: black;
-  x-index: 99;
-}
-
 .textbox p {
   font-size: 0.8rem;
   line-height: 1.6em;
@@ -144,5 +140,6 @@ p {
   font-size: 5rem;
   opacity: 0.9;
   filter: alpha(opacity=90);
+  max-width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
